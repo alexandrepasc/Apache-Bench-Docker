@@ -11,13 +11,8 @@ do
         h) host=${OPTARG}
     esac
 done
-# echo "requestnumber: $requestnumber";
-# echo "concurrentusers: $concurrentusers";
-# echo "duration: $duration";
-# echo "host: $host";
 
 time=`date +%m-%d-%Y_%H:%M`
-# echo "time: $time";
 
 if [[ $requestnumber != "" ]]
 then
